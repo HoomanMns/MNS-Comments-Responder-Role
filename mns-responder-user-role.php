@@ -42,7 +42,7 @@ function mnscrr_row_meta($plugin_meta, $plugin_file, $plugin_data, $status) {
 
 	if(strpos($plugin_file, basename(__FILE__))) {
 
-		$plugin_meta[] = '<a href="https://t.me/codimns">' . __('Telegram', 'mnswmc') . '</a>';
+		$plugin_meta[] = '<a href="https://t.me/codimns">' . __('Telegram', 'mnscrr') . '</a>';
 	}
 	return $plugin_meta;
 }
